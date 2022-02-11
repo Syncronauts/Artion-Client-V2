@@ -1,4 +1,4 @@
-# Artion-Client-V2
+# NeonRain-Client-V2
 
 ## Project setup
 ```
