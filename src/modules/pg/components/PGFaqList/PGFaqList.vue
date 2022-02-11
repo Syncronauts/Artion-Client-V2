@@ -30,7 +30,7 @@ const FAQs = [
     {
         question: 'What do I need to do before joining the auction?',
         answer:
-            'To participate in the auction, you first need to <strong>install <a href="https://fantom.foundation/blog/the-ultimate-guide-to-the-ftm-token/?__cf_chl_jschl_tk__=pmd_sOpbegfQncikm0fy3uY._Ij9j9sgDcKvojoUF0.R_2Q-1634231103-0-gqNtZGzNAjujcnBszQdR#ftm-metamask">Metamask</a></strong> or the <a href="https://fantom.foundation/blog/coinbase-wallet-integrates-support-for-fantom-mainnet/"><strong>Coinbase Wallet</strong></a> as browser extensions and connect to them through Artion. The <a href="https://docs.fantom.foundation/artion/creating-an-account#how-do-i-connect-to-artion">Artion documentation</a> offers detailed instructions on how to connect your wallet.',
+            'To participate in the auction, you first need to <strong>install <a href="https://fantom.foundation/blog/the-ultimate-guide-to-the-ftm-token/?__cf_chl_jschl_tk__=pmd_sOpbegfQncikm0fy3uY._Ij9j9sgDcKvojoUF0.R_2Q-1634231103-0-gqNtZGzNAjujcnBszQdR#ftm-metamask">Metamask</a></strong> or the <a href="https://fantom.foundation/blog/coinbase-wallet-integrates-support-for-fantom-mainnet/"><strong>Coinbase Wallet</strong></a> as browser extensions and connect to them through Artion. The <a href="https://docs.fantom.foundation/artion/creating-an-account#how-do-i-connect-to-artion">NeonRain documentation</a> offers detailed instructions on how to connect your wallet.',
     },
     {
         question: 'What is FTM and where can I get it?',

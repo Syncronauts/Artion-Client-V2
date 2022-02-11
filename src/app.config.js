@@ -1,12 +1,12 @@
 let appConfig = {
     // app name - used in titles
-    name: 'Artion',
+    name: 'NeonRain',
     // app main title
-    title: 'Artion, NFT markteplace',
+    title: 'NeonRain, NFT markteplace',
     // app description
-    description: 'Artion, NFT markteplace',
+    description: 'NeonRain, NFT markteplace',
     // app keywords
-    keywords: 'Artion, NFT, NFTs, Fantom',
+    keywords: 'NeonRain, NFT, NFTs, Ethereum',
     // app's favicon
     favicon: 'public/favicon.png',
     // app code

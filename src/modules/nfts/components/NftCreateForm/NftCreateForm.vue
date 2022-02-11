@@ -129,7 +129,7 @@ export default {
     data() {
         return {
             values: {
-                collectionId: '0x61af4d29f672e27a097291f72fc571304bc93521', // Default Artion Collection
+                collectionId: '0x61af4d29f672e27a097291f72fc571304bc93521', // Default NeonRain Collection
             },
             collections: [],
             collection: {},
