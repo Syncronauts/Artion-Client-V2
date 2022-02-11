@@ -7,7 +7,9 @@
     --homepage-gradient: none;
     --fimage-noimage-background-color: var(--theme-dark-color-5);
 
-    --theme-dark-color-9: #222431;
+    --theme-gradient-primary: linear-gradient(187deg, #1969FF, #505DD4);
+    --theme-card-color: #213752;
+    --theme-dark-color-9: #142233;
     --theme-dark-color-8: #252736;
     --theme-dark-color-7: #2c2e3f;
     --theme-dark-color-6: #33364a;
@@ -30,10 +32,12 @@
     //--f-input-active-border-color: var(--f-lighter-color);
     //--f-outline-shadow: 0 0 0 2px rgba(87,92,128, 0.9);
     --color-light: var(--theme-dark-color-4);
+    --f-scrollbar-gradient: -webkit-gradient(linear,left bottom,left top, color-stop(0,#24BBD0 ),color-stop(1,#505DD4));
+    --f-scrollbar-track: #1a2a3a;
 
-    --scrollbar-background-color: var(--f-color-grey-9);
-    --scrollbar-thumb-color: var(--theme-dark-color-5);
-    --scrollbar-thumb-hover-color: var(--theme-dark-color-4);
+    --scrollbar-background-color: var(--f-scrollbar-track);
+    --scrollbar-thumb-color: var(--f-scrollbar-gradient);
+    --scrollbar-thumb-hover-color: var(--f-scrollbar-gradient);
 
     .appcategorycard {
         --f-label-background: var(--theme-dark-color-9);
@@ -180,7 +184,8 @@
         --flistbox-item-hover-color: #fff;
         --flistbox-item-background-color: var(--theme-dark-color-7);
         --flistbox-item-hover-background-color: var(--theme-dark-color-5);
-        --flistbox-item-selected-background-color: var(--theme-dark-color-5);
+        // --flistbox-item-selected-background-color: var(--theme-dark-color-5);
+        --flistbox-item-selected-background-color: var(--theme-gradient-primary);
     }
 
     .fdetails {
@@ -285,6 +290,7 @@
 
     .nftcard {
         --nftcard-border-color: var(--theme-dark-color-5);
+        --nftcard-background-color: var(--theme-card-color);
 
         &:hover {
             border: 1px solid var(--nftcard-border-color);

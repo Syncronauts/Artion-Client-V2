@@ -5,7 +5,7 @@
         <router-view />
 
         <wallet-picker />
-        <f-app-theme :themes="['theme-default', 'theme-dark', 'theme-pg']" />
+        <f-app-theme :themes="['theme-dark', 'theme-default', 'theme-pg']" />
         <app-dark-theme />
         <f-tooltip with-arrow hide-on-document-scroll />
         <f-notifications
