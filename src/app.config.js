@@ -8,7 +8,7 @@ let appConfig = {
     // app keywords
     keywords: 'NeonRain, NFT, NFTs, Ethereum',
     // app's favicon
-    favicon: 'public/logo.png',
+    favicon: 'public/favicon.png',
     // app code
     code: process.env.VUE_APP_FANTOM_MODULE || 'neonrain',
     // app routes
@@ -134,7 +134,7 @@ if (appConfig.module === 'pg') {
         // meta image
         imageUrl: '/img/PierreGaslyNFTdrop.png',
         // app's favicon
-        favicon: 'public/favicon-pg.png',
+        favicon: 'public/favicon.png',
         // progressive web application
         usePWA: false,
         // specifies if auction is on or off
