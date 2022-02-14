@@ -11,6 +11,7 @@
     --f-doc-font-size: 18px;
     --f-doc-line-height: 25px;
     --f-doc-line-width: 40em;
+    --f-doc-filter: invert(1) hue-rotate(181deg); ;
 
     // font sizes
     --f-font-size-1: 10px;
@@ -67,9 +68,15 @@
     --main-lr-padding: var(--f-spacer-3);
     --filter-item-padding: var(--f-spacer-2);
     --fimage-noimage-background-color: var(--f-color-grey-2);
+    // --scrollbar-thumb-color: #888;
+    // --scrollbar-thumb-hover-color: #555;
+    
+    --f-scrollbar-gradient: -webkit-gradient(linear,left bottom,left top, color-stop(0,#24BBD0 ),color-stop(1,#505DD4));
+    --f-scrollbar-track: #1a2a3a;
+    
     --scrollbar-background-color: #f1f1f1;
-    --scrollbar-thumb-color: #888;
-    --scrollbar-thumb-hover-color: #555;
+    --scrollbar-thumb-color: var(--f-scrollbar-gradient);
+    --scrollbar-thumb-hover-color: var(--f-scrollbar-gradient);
 }
 
 @include media.media-min(breakpoints.$breakpoint-md) {

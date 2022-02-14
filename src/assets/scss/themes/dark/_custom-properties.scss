@@ -34,6 +34,7 @@
     --color-light: var(--theme-dark-color-4);
     --f-scrollbar-gradient: -webkit-gradient(linear,left bottom,left top, color-stop(0,#24BBD0 ),color-stop(1,#505DD4));
     --f-scrollbar-track: #1a2a3a;
+    --f-doc-filter: none;
 
     --scrollbar-background-color: var(--f-scrollbar-track);
     --scrollbar-thumb-color: var(--f-scrollbar-gradient);
@@ -44,7 +45,8 @@
     }
 
     .appheader {
-        --appheader-background: var(--f-doc-background-color);
+        // --appheader-background: var(--f-doc-background-color);
+        --appheader-background: black;
         --appheader-border-bottom: 1px solid var(--theme-dark-color-5);
     }
 

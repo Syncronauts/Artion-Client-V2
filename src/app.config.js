@@ -8,9 +8,9 @@ let appConfig = {
     // app keywords
     keywords: 'NeonRain, NFT, NFTs, Ethereum',
     // app's favicon
-    favicon: 'public/favicon.png',
+    favicon: 'public/logo.png',
     // app code
-    code: process.env.VUE_APP_FANTOM_MODULE || 'artion',
+    code: process.env.VUE_APP_FANTOM_MODULE || 'neonrain',
     // app routes
     module: process.env.VUE_APP_FANTOM_MODULE || 'artion',
     // apollo client settings

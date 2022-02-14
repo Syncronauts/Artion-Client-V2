@@ -42,7 +42,7 @@ addParameters({
         manual: false,
     },
     themes: {
-        default: '',
+        default: 'dark',
         list: [
             { name: 'dark', class: 'theme-dark', color: '#202225' },
             { name: 'PG', class: 'theme-pg', color: '#090c10' },

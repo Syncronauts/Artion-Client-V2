@@ -1,8 +1,6 @@
 <template>
     <div class="appfooter">
-        <div class="appfooter_item">
-            <router-link to="/"><img src="artion-logo-white.svg" height="35px" alt="artion logo"/></router-link>
-        </div>
+        <div />
         <div class="appfooter_item">
             <a
                 target="_blank"

@@ -2,8 +2,7 @@
     <header class="appheader">
         <div class="appheader_logo">
             <router-link to="/" class="appheader_logo">
-                <img src="/logo.png" height="35px" alt="neonrain logo" />
-                <div class="appheader_title">NeonRain</div>
+                <app-logo />
             </router-link>
         </div>
         <div class="appheader_col">
@@ -23,11 +22,11 @@ import AppMenu from '@/modules/app/components/AppMenu/AppMenu.vue';
 import WalletButtonWrap from '@/modules/wallet/components/WalletButtonWrap/WalletButtonWrap.vue';
 import AppHamburger from '@/modules/app/components/AppHamburger/AppHamburger.vue';
 import AppSearchBarWithWhisperer from '@/modules/app/components/AppSearchBarWithWhisperer/AppSearchBarWithWhisperer.vue';
-
+import AppLogo from '@/modules/app/components/AppLogo/AppLogo.vue';
 export default {
     name: 'AppHeader',
 
-    components: { AppSearchBarWithWhisperer, WalletButtonWrap, AppMenu, AppHamburger },
+    components: { AppSearchBarWithWhisperer, WalletButtonWrap, AppMenu, AppHamburger, AppLogo },
 
     data() {
         return {

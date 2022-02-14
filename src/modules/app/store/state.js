@@ -18,7 +18,7 @@
 /** @type {AppState} */
 export const state = {
     language: '',
-    theme: 'theme-default',
+    theme: 'theme-dark',
     txStatus: {},
     nftsDensity: 280,
     autoDarkTheme: false,
