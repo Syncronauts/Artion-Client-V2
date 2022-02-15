@@ -33,6 +33,7 @@
     //--f-outline-shadow: 0 0 0 2px rgba(87,92,128, 0.9);
     --color-light: var(--theme-dark-color-4);
     --f-scrollbar-gradient: -webkit-gradient(linear,left bottom,left top, color-stop(0,#24BBD0 ),color-stop(1,#505DD4));
+    --f-placholder-gradient: linear-gradient(100deg, #ffffff00 40%, #ffffff12 50%, #ffffff00 60%) #ededed0f;
     --f-scrollbar-track: #1a2a3a;
     --f-doc-filter: none;
 
@@ -56,6 +57,7 @@
 
     .fplaceholder {
         --fplaceholder-bg-color2: var(--theme-dark-color-6);
+        --fplaceholder-bg-gradient: var(--f-placholder-gradient);
     }
 
     @include linkTools.links() {

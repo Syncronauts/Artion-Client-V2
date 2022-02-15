@@ -77,6 +77,14 @@
     --scrollbar-background-color: #f1f1f1;
     --scrollbar-thumb-color: var(--f-scrollbar-gradient);
     --scrollbar-thumb-hover-color: var(--f-scrollbar-gradient);
+
+    --f-placholder-gradient: linear-gradient(100deg, #ffffff00 30%, #24bbd04f 40%,#505DD491 60%, #1e61c500 60%) #ededed0f;
+
+
+    .fplaceholder {
+        --fplaceholder-bg-gradient: var(--f-placholder-gradient);
+    }
+
 }
 
 @include media.media-min(breakpoints.$breakpoint-md) {
