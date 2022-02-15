@@ -1,5 +1,18 @@
 :root {
     .fplaceholder {
         --fplaceholder-bg-color2: var(--f-color-grey-2);
+    }   
+    
+    .fplaceholder-pulsebganim {
+        background: var(--fplaceholder-bg-gradient);
+        background-size: 200% 100%;
+        background-position-x: 180%;
+        animation: 1.6s Shine ease-in-out infinite;
+    }
+}
+
+@keyframes Shine {
+    to {
+        background-position-x: -20%;
     }
 }
